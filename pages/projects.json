@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "cover": "https://uploads.sitepoint.com/wp-content/uploads/2021/10/1633599028SkilllzLanding.png",
+        "title": "Skilllz",
+        "slug": "projects/first-project",
+        "excerpt": "A Sleek Purple Landing Page For an online training platform. Learn some important CSS concepts by building a landing page"
+    },
+    {
+        "id": 2,
+        "title": "Movie Generator App",
+        "cover": "https://uploads.sitepoint.com/wp-content/uploads/2021/10/1633599458moviegenerator.png",
+        "slug": "projects/second-project",
+        "excerpt": "Learn how to build CRUD applications with React and HarperDB. This in depth tutorials covers a lot about API integartion"
+    },
+    {
+        "id": 3,
+        "title": "Hacker News Clone",
+        "cover": "https://uploads.sitepoint.com/wp-content/uploads/2021/10/1633599423hackernewsclone.png",
+        "slug":  "projects/third-project",
+        "excerpt": "Have you always wanted to clone a web page? Build a Hacker News Clone using React and HarperDB. Get started with it now"
+    }
+]

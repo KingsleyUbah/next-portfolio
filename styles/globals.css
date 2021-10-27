@@ -1,16 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "lato", sans-serif;
+  font-size: 20px;
+  background-color: #D7E5f0;  
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* HOMEPAGE */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.profile {
+  display: flex;
+  max-width: 900px;
+  margin: 180px auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+ .navbar a {
+  text-decoration: none;
+  color: rgb(59, 58, 58);
+  margin: 0 25px;
+  transition: 0.2s;
+}
+
+ .active {
+  background-color: blue;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 6px;
+}
+
+.intro {
+  margin: 0 90px;
+}
+
+.contact a {
+  margin: 0 15px;
+}
+
+/* PROJECTS */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project img {
+  height: 100px;
+  width: 200px;
+}
+
+.project a {
+  color: white;
+  background-color: black;
+  padding: 10px 10px;
+  border-radius: 6px;
+}
+
+.project {
+  max-width: 500px;
+  background-color: blue;
+  border-radius: 6px;
+  color:white;
+  padding: 30px 30px;
+  margin: 30px 0;
+}
+
+
+/* CONTACT PAGE */
+.link {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+input {
+  height: 50px;
+  width: 500px;
+  margin: 10px 0;
+  font-size: 17px;
+  padding-left: 3px;
+}
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+/* BLOG PAGE */
+.posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.post-container {
+  margin: 15px auto;
+  max-width: 900px;
+}
+
+.post-container img {
+  width: 100%;
+}
+
+.post img {
+  height: 300px;
+  width: 500px;
+}
+
+.posts a {
+  background-color: black;
+  color: #D7E5f0;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin: 30px 0;
+  border-radius: 6px;
+}
+
+.post {
+  background-color: white;
+  margin: 30px 0;
+  padding: 30px 30px;
+  border-radius: 6px;
 }
